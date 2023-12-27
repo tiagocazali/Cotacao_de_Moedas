@@ -58,7 +58,7 @@ def atualizar_cotacoes():
                 #linha da coluna A == cada_moeda e a coluna referente a data
                 df.loc[df.iloc[:,0]==cada_moeda, data] = bid
         
-        df.to_excel("Teste.xlsx")
+        df.to_excel("Teste.xlsx") #onde salva o arquivo
         lable_atualizarCotacoes['text'] = "Arquivo Atualizado com Sucesso"
 
     except:
