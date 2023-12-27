@@ -1,7 +1,7 @@
 # Programa de Cotação de Moedas
 Uma aplicação Python para cotação de moedas com interface gráfica usando Tkinter, API, Requests e Pandas. Esse programa faz parte do meu portifólio de estudos, utilizando vários conceitos de programação em um unico mini projeto.
 
-![print do programa](Capturar.JPG)
+![print do programa](img/Capturar.JPG)
 
 
 ## Funcionalidades
