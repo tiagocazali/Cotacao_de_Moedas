@@ -1,5 +1,7 @@
 # Programa de Cotação de Moedas
-Uma aplicação Python para cotação de moedas com interface gráfica usando Tkinter, API, Requests e Pandas. Esse programa faz parte do meu portifólio de estudos, utilizando vários conceitos de programação em um unico mini projeto.
+Uma aplicação Python para cotação de moedas com interface gráfica usando Tkinter, API, Requests e Pandas. 
+
+Esse programa faz parte do meu portifólio de estudos, utilizando vários conceitos de programação em um único mini projeto.
 
 ![print do programa](img/Capturar.JPG)
 
@@ -27,9 +29,14 @@ pip install tk tkcalendar requests pandas openpyxl
 1. Execute o arquivo Python: `sistemaCotacao.py`
 2. Escolha a moeda e a data desejada para obter a cotação.
 3. Veja a cotação na hora ao lado do botão.
+
    OU
-4. Importe um arquivo Excel e defina o período para atualizar as cotações de várias moedas.
-5. Consulte a saída no arquivo "Teste.xlsx", salvo na mesma pasta do arquivo selecionado acima.
+   
+5. Importe um arquivo Excel e defina o período para atualizar as cotações de várias moedas.
+   > OBS: O Arquivo em excel deve seguir o padrão: Célula A1 com título, e todas as moedas em linhas separadas.
+   ![foto de exemplo do arquivo de entrada](img/exemplo_arquivo.JPG)
+6. Consulte a saída no arquivo "Teste.xlsx", salvo na mesma pasta do arquivo selecionado acima.
+   ![foto de exemplo do arquivo de entrada](img/exemplo_arquivo_resposta.JPG)   
 
 ## Contribuições
 
